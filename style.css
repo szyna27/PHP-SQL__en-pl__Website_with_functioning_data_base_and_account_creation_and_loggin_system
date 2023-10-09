@@ -1,0 +1,51 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    background-image: linear-gradient(to right, blue, lightskyblue);
+}
+
+#logo{
+    margin: auto;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    color: lightskyblue;
+    text-shadow: rgb(0, 0, 125) 5px 5px 10px;
+    width: 40%;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    margin: auto;
+    width: 40%;
+}
+
+.pusty{
+    width: 10%;
+}
+
+.nav_button{
+    margin: auto 5px;
+    border: 2px rgb(8, 105, 165) solid;
+    background-image: linear-gradient(to left, rgb(22, 135, 206), rgb(76, 177, 240));
+    border-radius: 25%;
+    height: 100%;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 20px;
+}
